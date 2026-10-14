@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #0f2b5c;
+  --color-primary-hover: #1e3a8a;
+  --color-secondary: #c59b27;
+  --color-secondary-hover: #b38918;
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-text: #1e293b;
+  --color-heading: #091326;
+  --color-muted: #64748b;
+  --color-border: #e2e8f0;
+  --color-card: #ffffff;
+  --color-header: #ffffff;
+  --color-footer: #080f1e;
+  --color-sidebar: #091122;
+  --font-family-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-family-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  overflow-x: hidden;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek scrollbar for enterprise dashboard & code viewers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+/* Luxury glow effects and glass backdrop */
+.luxury-glass {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.luxury-glass-light {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glow-accent {
+  box-shadow: 0 0 25px -5px rgba(197, 155, 39, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 30px -5px rgba(30, 58, 138, 0.35);
+}
+

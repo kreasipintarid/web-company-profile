@@ -1,0 +1,8 @@
+{
+  "name": "Dynamic Company Profile CMS + Admin Panel",
+  "description": "Enterprise-grade Dynamic Company Profile CMS and Admin Panel built with native PHP 8.2+ and MySQL architecture, featuring visual page builder, bilingual engine (ID/EN), Zoho SMTP integration, and full XAMPP deployment packaging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

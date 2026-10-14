@@ -1,0 +1,19 @@
+{
+  "name": "enterprise/company-profile-cms",
+  "description": "Production-Grade Dynamic Company Profile CMS & Admin Panel with Native PHP 8.2+ and MySQL",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2.0",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
